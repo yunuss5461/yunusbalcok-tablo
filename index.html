@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLOLAR</title>
+    <style>
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.tablo {
+    width: 70%;
+    margin: 40px;
+    border-collapse: collapse; 
+    background-color: aliceblue;
+    
+}
+
+.tablo td {
+    padding: 10px;
+    text-align: left; 
+   
+}
+
+
+.tablo tbody tr:nth-child(even) {
+    background-color: grey; 
+}
+
+table,tbody,tr,td{
+    height: 40px;
+
+}
+
+.prog, .open, .hold {
+    border-radius: 3px;
+    display: inline;
+    text-align: center
+    }
+
+    .prog {
+    background-color: green;
+  
+}
+
+.open {
+    background-color: yellow;
+   
+}
+.hold {
+    background-color: red;
+  
+}
+
+    </style>
+</head>
+<body>
+    <table class="tablo">
+        <tbody>
+            <tr>
+                <td>INVOICE</td>
+                <td>CUSTOMER</td>
+                <td>SHIP</td>
+                <td>PRICE</td>
+                <td>PRUCHASED PRICE</td>
+                <td>STATUS</td>
+            </tr>
+            <tr>
+                <td>1001</td>
+                <td>Mark Otto</td>
+                <td>Japan</td>
+                <td>$3000</td>
+                <td>$1200</td>
+                <td class="prog">Progress</td>
+            </tr>
+            <tr>
+                <td>1001</td>
+                <td>Mark Otto</td>
+                <td>Japan</td>
+                <td>$3000</td>
+                <td>$1200</td>
+                <td class="open">Open</td>
+            </tr>
+            <tr>
+                <td>1001</td>
+                <td>Mark Otto</td>
+                <td>Japan</td>
+                <td>$3000</td>
+                <td>$1200</td>
+                <td class="hold">On Hold</td>
+            </tr>
+            <tr>
+                <td>1001</td>
+                <td>Mark Otto</td>
+                <td>Japan</td>
+                <td>$3000</td>
+                <td>$1200</td>
+                <td class="prog">Progress</td>
+            </tr>
+            <tr>
+                <td>1001</td>
+                <td>Mark Otto</td>
+                <td>Japan</td>
+                <td>$3000</td>
+                <td>$1200</td>
+                <td class="hold">On Hold</td>
+            </tr>
+            <tr>
+                <td>1001</td>
+                <td>Mark Otto</td>
+                <td>Japan</td>
+                <td>$3000</td>
+                <td>$1200</td>
+                <td class="open">Open</td>
+            </tr>
+            <tr>
+                <td>1001</td>
+                <td>Mark Otto</td>
+                <td>Japan</td>
+                <td>$3000</td>
+                <td>$1200</td>
+                <td class="open">Open</td>
+            </tr>
+            <tr>
+                <td>1001</td>
+                <td>Mark Otto</td>
+                <td>Japan</td>
+                <td>$3000</td>
+                <td>$1200</td>
+                <td class="prog">Progress</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
